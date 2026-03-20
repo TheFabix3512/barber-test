@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barbería Elite</title>
+
+  <style>
+    body {
+       margin: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+  url('./fondo.png') center center;
+  background-size: cover;
+  background-attachment: fixed;
+    }
+
+    header {
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    header h1 {
+      font-size: 2.8em;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+
+    .btn {
+      background: #25D366;
+      color: white;
+      padding: 12px 25px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 20px;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .servicios p {
+      background: rgba(255, 255, 255, 0.1);
+  margin: 10px auto;
+  padding: 12px;
+  width: 250px;
+  border-radius: 5px;
+  backdrop-filter: blur(5px);
+    }
+
+    footer {
+      background: black;
+      text-align: center;
+      padding: 15px;
+    }
+
+    .whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25D366;
+      padding: 15px;
+      border-radius: 50px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    /* FIX para celulares */
+    @media (max-width: 768px) {
+      header {
+        background-attachment: scroll;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Barbería Elite</h1>
+  <p>Cortes modernos y estilo profesional</p>
+
+  <a class="btn" href="https://wa.me/526141707494?text=Hola%20quiero%20agendar%20una%20cita">
+    Agendar por WhatsApp
+  </a>
+</header>
+
+<section class="servicios">
+  <h2>Servicios</h2>
+
+  <p>Corte - $100</p>
+  <p>Barba - $80</p>
+  <p>Corte + Barba - $150</p>
+</section>
+
+<section>
+  <h2>Horario</h2>
+  <p>Lunes a Sábado: 10am - 8pm</p>
+</section>
+
+<footer>
+  <p>© 2026 Barbería Elite</p>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/526141707494?text=Hola%20quiero%20informaci%C3%B3n">
+  WhatsApp
+</a>
+
+</body>
+</html>
